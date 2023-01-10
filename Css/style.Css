@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap'); 
+bac{
+margin:0 ;
+pad: 0;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Open sans',sans-serif;
+}
+
+img{
+
+    max-width: 100%;
+    display: block;
+}
+header{
+background-image: url(../images/dawn.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: rgba(0, 0, 0, 0.459);
+background-blend-mode : multiply;
+padding: 15px 0;
+
+}
+
+.container{
+width: 900px;
+margin: auto;
+
+
+}
+.flex{ 
+display: flex;
+
+}
+.logo{
+
+    width: 20%;
+}
+
+.logo h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo h2 span{
+    font-size: 17px;
+    font-weight: 400;
+    display: block;
+}
+
+nav{
+   
+width: 80%;
+}
+
+nav ul{
+  
+display: flex;
+  
+justify-content: end;
+}
+
+nav ul li{
+   
+list-style: none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner start */
+.banner-content{
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner-content h3{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.banner-content span{
+    width: 100px;
+    height: 5px;
+    background: #df366d;
+    display: block;
+    margin: auto;
+}
+
+.banner-content  h1{
+    font-size: 63px;
+    font-weight: 600;
+    margin: 35px;
+}
+
+
+.banner-content  a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #df366d;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* UPCOMING EVENTS */
+
+.event{
+    padding-top:60PX;
+font-size: 30PX;
+color: black;
+text-align: center;
+}
+
+.event h2{}
+
+.event span{
+    width: 100px;
+    height: 5px;
+    background: #df366d;
+    display: block;
+    margin: auto;
+margin-top: 10PX;
+margin-bottom: 20px;
+}
+
+.feature {}
+
+.col-1-2{
+padding: 20PX;
+text-align: center;
+}
+
+.col-1-2 img{
+    MAX-HEIGHT: 4;
+    HEIGHT: 350PX;
+    OBJECT-FIT: cover;
+    border-radius: 7pX;
+    BOX-SHADOW: 10PX 10PX 2PX #80808061;
+}
+
+.col-1-2 h2{
+    FONT-SIZE: 30PX;
+    COLOR: #00000096;
+    MARGIN: 20PX 0 0;
+}
+
+.col-1-2 p{
+    FONT-SIZE: 18PX;
+    color: #737373;
+}
+
+
+.col-1-2 a{
+    text-decoration: none;
+    color: #df366d;
+    letter-spacing: 2PX;
+    font-size: 18PX;
+    MARGIN-TOP: 15PX;
+    DISPLAY: BLOCK;
+}
+
+/* explore section */
+
+.explore-section{
+    background-image: url(../images/father.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color:rgba(0, 0, 255, 0.473);
+background-blend-mode : multiply;
+padding: 150px;
+margin-top: 100px;
+color: white;
+background-attachment:fixed;
+
+
+}
+
+.explore-flex{
+    display: flex;
+    justify-content: end;
+}
+.column{
+width: 50%;
+}
+
+.column H2{
+
+font-size: 60px;
+}
+
+.column span{
+    width: 100px;
+    height: 5px;
+    background: #df366d;
+    display: block;
+  
+margin-top: 5PX;
+margin-bottom: 25px;
+
+
+}
+
+.column P{
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+
+.column a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+/* last srction */
+
+.tour-section{
+    padding: 60px 0;
+}
+.tour-section span{
+    width: 100px;
+    height: 5px;
+    background: #df366d;
+    display: block;
+  
+margin-top: 5PX;
+margin-bottom: 25px;
+}
+.col-1-3{
+    padding: 0px;
+width: 33.33%;
+
+}
+.col-1-3 h2{
+font-size: 30px;
+}
+
+.tour-section p{
+    padding: 20px;
+font-size: 17px;
+font-weight: 100;
+color: black;
+}
+
+.tour-section a{ color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #df366d;
+    padding:15px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.small{
+    height: 350px;
+width: 100%;
+object-fit: cover;
+margin-bottom: 10px;
+
+
+}
+
+.big{
+    width: 500px;
+    object-fit: cover;
+margin-bottom: 20px;
+    
+}
+
+.address{
+    background-color: #df366d;
+color: white;
+padding: 100px;
+text-align: center;
+font-size: 25px;
+font-weight: 100;
+
+}
+
+
+
+/* medium device (landscape tablets mobile, 768px and up) */
+@media only screen and (max-width:767px){
+         
+        .container{
+        width:100%;
+        margin: auto;               
+        }
+        .flex{ 
+        display: block;  
+             
+        }
+        .logo{
+            width: 85%;
+        }
+        
+        .logo h2{
+            font-size: 20px;
+           text-align: center;
+           margin-bottom: 10px;
+        
+        }
+        
+        nav{           
+        width:80%;
+        }
+       
+nav ul li a{
+   
+  
+    padding: 5px;
+    font-size: 15px;
+   
+}
+
+nav ul{
+  
+    display: flex;
+    justify-content: center;
+        
+}
+
+/* banner start */
+
+.banner-content{
+    padding: 50px 0;
+}  
+
+.banner-content h3{
+    font-size: 20px;
+  width: 85%;
+}
+
+
+.banner-content  h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 35px;
+    width: 75%;
+}
+
+
+.banner-content span{
+    width: 10%;
+
+
+}
+
+/* upcoming events */
+
+.event{
+   
+font-size: 20PX;
+width: 85%;
+}
+
+
+
+
+.col-1-2 img{
+    MAX-HEIGHT: 4;
+    HEIGHT: 300PX;
+    OBJECT-FIT: cover;
+    border-radius: 7pX;
+    BOX-SHADOW: 10PX 10PX 2PX #80808061;
+   width: 85%;
+}
+
+.col-1-2 h2{
+    FONT-SIZE: 20PX;
+font-weight: 600;
+margin: 35px;
+  width:70%;
+}
+
+.col-1-2 p{
+    FONT-SIZE: 16PX;
+ width: 85%;
+}
+
+.col-1-2 a{
+  
+    font-size: 18PX;
+    MARGIN-TOP: 15PX;
+    width: 85%;
+}
+
+
+
+
+/* explore section */
+
+.explore-section{
+
+padding: 70px;
+margin-top: 60px;
+}
+
+.explore-flex{
+   
+    justify-content: center;
+}
+.column{
+width: 90%;
+}
+
+.column H2{
+
+font-size: 30px;
+}
+
+
+
+.column P{
+    font-size: 17px;
+  
+}
+/* last section */
+
+
+.tour-section{
+    padding: 50px 0;
+}
+
+.col-1-3{
+    padding: 10px;
+width: 95%;
+
+}
+.col-1-3 h2{
+    font-size: 20px;
+    }
+    
+
+.tour-section p{
+    padding: 35px;
+font-size: 17px;
+font-weight: 100;
+color: black;
+}
+
+
+.small{
+    height: 300px;
+
+object-fit: cover;
+margin-bottom: 10px;
+
+
+}
+
+.big{
+    width: 300px;
+    object-fit: cover;
+margin-bottom: 20px;
+    
+}
+
+.address{
+    background-color: #df366d;
+color: white;
+padding: 100px;
+text-align: center;
+font-size: 25px;
+font-weight: 100;
+
+}
+
+.tour-section a{ color: white;
+   ;
+    padding:8px;
+    border-radius: 30px;
+    margin: 30px;
+}
+}
+
+
+
+/* large device (laptops/desktops ,992px ad up) */
+@media only screen and (min-width:992px){
+  
+}
+/* extra large device (large laptops and desktops,1200px and up) */
+@media only screen and (min-width:1200px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
